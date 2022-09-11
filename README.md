@@ -30,23 +30,23 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/Prasenjit-3433/Drag-and-Drop">
+  <a href="https://github.com/Prasenjit-3433/Splash-Page-Design">
     <img src="images/kanban.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">Kanban Board</h3>
+<h3 align="center">Splash Page</h3>
 
   <p align="center">
-    A web-based, Kanban-style, project management tool feat. Drag and Drop API, localStorage 😎
+    A modern looking landing page built from Figma Design ❄️
     <br />
-    <a href="https://github.com/Prasenjit-3433/Drag-and-Drop"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/Prasenjit-3433/Splash-Page-Design"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://kanbanboardjs.netlify.app/">View Demo</a>
+    <a href="https://figmasplash.netlify.app/">View Demo</a>
     ·
-    <a href="https://github.com/Prasenjit-3433/Drag-and-Drop/issues">Report Bug</a>
+    <a href="https://github.com/Prasenjit-3433/Splash-Page-Design/issues">Report Bug</a>
     ·
-    <a href="https://github.com/Prasenjit-3433/Drag-and-Drop/issues">Request Feature</a>
+    <a href="https://github.com/Prasenjit-3433/Splash-Page-Design/issues">Request Feature</a>
   </p>
 </div>
 
@@ -85,15 +85,15 @@
 
 <!--  ![Screenshot](images/demo.gif) -->
 <p align="center">
-  <img src="images/demo.gif" alt="animated" />
+  <img src="demo.gif" alt="animated" />
 </p>
 
 
 
 
-"Kanban" is the Japanese word for "visual signal". If you work in services or technology, your work is often times invisible and intangible. A kanban board is an agile project management tool designed to help visualize work, limit work-in-progress, and maximize efficiency (or flow). It can help both `agile` and `DevOps` teams establish order in their daily work. Kanban boards use cards, columns, and continuous improvement to help technology and service teams commit to the right amount of work, and get it done!
+Figma is a modern, streamlined design tool that makes the developer handoff process smooth and seamless. Developers now have better access to the designs and have the ability to extract information about typography, redlines, colors, measurement and more. 
 
-Kanban has come a long way from its origins in lean manufacturing thanks to a small but mighty group of kanban enthusiasts. David Anderson’s work defining the kanban method helped bring kanban into the software and services space, and Personal Kanban, by Jim Benson and Tonianne DeMaria, helped expand the applications of kanban to places you wouldn’t believe. 🔥
+In this project, a pre-designed Figma Design is brought into a real landing page!. 🔥
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -119,13 +119,13 @@ To get a local copy up and running follow these simple example steps.
 
 This is an example of how to list things you need to use the software and how to install them.
 * Live Server Extension
-  ![Live-Server](images/liveserver.png)
+  ![Live-Server](liveserver.png)
 
 ### Installation
 
 1. First of all install `Live Server` extension by `Ritwick Dey`.
 2. Once the extension was installed, then `right-click` on `index.html` and select `Open with Live Server`.
-3. It'll open a new tab in browser & start serving the Kanban Board. Enjoy!.
+3. It'll open a new tab in browser & start serving the Splash Page. Enjoy!.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -135,37 +135,20 @@ This is an example of how to list things you need to use the software and how to
 <!-- USAGE EXAMPLES -->
 ## 🏗️ Implementation
 
-* First of all, we need to gather all `functional requirements` of the Kanban Board. kanban boards can be broken down into five components: `Visual signals`, `columns`, `work-in-progress` limits, a `commitment point`, and a `delivery point`.
+* In Figma, the Code panel offers an easy way to extract code information from a specific page element. The code will be displayed by clicking on a layer.
+Currently, Figma supports CSS, Swift, and XML, but notice that most of the code available involves only visual properties and spacing. No Javascript or other logic is exported.
 
-<details>
-  <summary>More About Each Component</summary>
-  <ol>
-    <li>
-      <p>Visual Signals — One of the first things you’ll notice about a kanban board are the visual cards (stickies, tickets, or otherwise). Kanban teams write all of their projects and work items onto cards, usually one per card. For agile teams, each card could encapsulate one user story. Once on the board, these visual signals help teammates and stakeholders quickly understand what the team is working on.</p>
-    </li>
-    <li>
-      <p>Columns — Another hallmark of the kanban board are the columns. Each column represents a specific activity that together compose a “workflow”. Cards flow through the workflow until completion. Workflows can be as simple as “Backlog,” “In Progress,” “Complete,” or "On Hold".</p>
-    </li>
-    <li>
-      <p>Work In Progress (WIP) Limits — WIP limits are the maximum number of cards that can be in one column at any given time. A column with a WIP limit of three cannot have more than three cards in it. When the column is “maxed-out” the team needs to swarm on those cards and move them forward before new cards can move into that stage of the workflow. These WIP limits are critical for exposing bottlenecks in the workflow and maximizing flow. WIP limits give you an early warning sign that you committed to too much work.</p>
-    </li>
-    <li>
-      <p>Commitment point — Kanban teams often have a backlog for their board. This is where customers and teammates put ideas for projects that the team can pick up when they are ready. The commitment point is the moment when an idea is picked up by the team and work starts on the projec</p>
-    </li>
-    <li>
-      <p>Delivery point — The delivery point is the end of a kanban team’s workflow. For most teams, the delivery point is when the product or service is in the hands of the customer. The team’s goal is to take cards from the commitment point to the delivery point as fast as possible. The elapsed time between the two is the called Lead Time. Kanban teams are continuously improving to decrease their lead time as much as possible.</p>
-    </li>
-  </ol>
-</details>
+* The right hand panel provides code data for color values, typography, position and sizes. Additionally, designers have the option to add a text description to styles and components, which will be available in the same place. Finally, the panel supports two formatting styles for all three syntaxes: Table and Code. You can toggle them from a tab selector. The Code formatting style is very useful for quick copy and paste. Since the output code is structured in groups, you can extract only the ones you need. Groups split the code by position, text or colors.
+
 
 
 <div align="center">
-<img src="images/Elements_of_a_kanban_board.png" alt="Kanban Board" width="500" height="398">
+<img src="figma/Landing-Page.png" alt="Landing Page" width="500" height="398">
 </div> 
 
 
 
-* Then break the whole board into small `Ui Components` & start building indivisual components.
+* Then break the whole design into small `Ui Components` & start building indivisual components.
 <details>
 <summary>Ui Components:</summary>
 <ol>
@@ -173,11 +156,10 @@ This is an example of how to list things you need to use the software and how to
     <details>
       <summary>Title & Text</summary>
       <ul>
-        <li>an unordered list is going to hold these 4 columns & each column is going to contain another unordered list which'll hold all the task items.</li>
-        <li>In each column, there'll be a header at top that indicates the type of the column, followed by task items and then at last, two buttons - add-item, save-item and a textbar which'll be hidden by default.</li>
-        <li>Each task item can have a maximum height of 52% of viewport height, so that user can always sees the bottom of the column. </li>
-        <li>If a column contains any task item with very long text, then in that case, a custom-designed scollbar will appear at side to scroll through the task items and at same item user can see whole column.</li>
-        <div align="center"><img src="images/image2.png" alt="Kanban Columns" align="center" width="450" height="300"></div>
+        <li>On click on the Title on the design of the Figma, the corresponding styles shows on left side.</li>
+        <li>Copy and paste the styles from Figma & give the same style in style.css.</li>
+        <li>Styles in Figma uses paid fonts. So here we use fonts from google fonts.</li>
+        <div align="center"><img src="figma/title.png" alt="Kanban Columns" align="center" width="450" height="300"></div>
       </ul>
     </details>
   </li>
@@ -186,10 +168,11 @@ This is an example of how to list things you need to use the software and how to
     <details>
       <summary>Image Assets</summary>
       <ul>
-        <li>First of all, we set 4 global arrays that'll hold all the contents for each 4 columns.</li>
-        <li>On load of the page, it'll try to fetch data from localStorage if there's any and populate them into those arrays accordingly. Otherwise set some default contents for those 4 arrays.</li>
-        <li>There's another global var to keep track if there's any changes made on those global 4 arrays.</li>
-        <li>Then a function to update DOM. It'll create element for each item in those 4 arrays and insert them into their proper columns accordingly.</li>
+        <li>In order to import an image asset from Figma, first we need to click on the image & select the entire component at left side-bar.</li>
+        <li>Then right side, navigate to `Export` tab.</li>
+        <li>Select import format like PNG, JPG, SVg etc. and size like 1x, 2x etc.</li>
+        <li>Finally click on `Export` button to download or preview it before download.</li>
+        <div align="center"><img src="figma/image.png" alt="Kanban Columns" align="center" width="450" height="300"></div>
       </ul>
     </details>
     </li>
@@ -206,19 +189,6 @@ This is an example of how to list things you need to use the software and how to
 </details>
 
 _For more information, visit necessary references [Link](#%EF%B8%8F-references)_
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- Features -->
-## 💎 Features
-
-- [ ] **Flexibility**: Digital Kanban boards allow teams that do not share a physical office space to use kanban boards remotely and asynchronously. The setup involves just a few clicks to create digital lists, which represent the stages of your kanban process, on a board view that your whole team can access and manage.
-- [ ] **Drag and Drop**: Once can move a task from one stage to another stage by just dragging and dropping the card.
-- [ ] **Local Storage**: The setup uses browser's Local Storage to store the digital for faster data fetching. Even if the browser or tab get closed, all the data remain safe!. So that on the next page load, the board gets back to its previous state.
-
-See the [open issues](https://github.com/Prasenjit-3433/Drag-and-Drop/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -256,7 +226,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Prasenjit Sutradhar - [@twitter_handle](https://twitter.com/twitter_handle) - prasenjitsutradhar3433@gmail.com
 
-Project Link: [https://github.com/Prasenjit-3433/Drag-and-Drop](https://github.com/Prasenjit-3433/Drag-and-Drop)
+Project Link: [https://github.com/Prasenjit-3433/Splash-Page-Design](https://github.com/Prasenjit-3433/Splash-Page-Design)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -269,6 +239,8 @@ Project Link: [https://github.com/Prasenjit-3433/Drag-and-Drop](https://github.c
 * [Splash Page Design](https://www.figma.com/file/4KIM14zOqqIKRuF8kBtHGs/Showcase-Website?node-id=1%3A2)
 * [HeroPatterns - Background](https://heropatterns.com/)
 * [uiGradients - Background](https://uigradients.com/#Portrait)
+* [Memory Leaks](https://auth0.com/blog/four-types-of-leaks-in-your-javascript-code-and-how-to-get-rid-of-them/)
+* [Record heap snapshots](https://developer.chrome.com/docs/devtools/memory-problems/heap-snapshots/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -277,16 +249,16 @@ Project Link: [https://github.com/Prasenjit-3433/Drag-and-Drop](https://github.c
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/Prasenjit-3433/Drag-and-Drop.svg?style=for-the-badge
-[contributors-url]: https://github.com/Prasenjit-3433/Drag-and-Drop/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/Prasenjit-3433/Drag-and-Drop.svg?style=for-the-badge
-[forks-url]: https://github.com/Prasenjit-3433/Drag-and-Drop/network/members
-[stars-shield]: https://img.shields.io/github/stars/Prasenjit-3433/Drag-and-Drop.svg?style=for-the-badge
-[stars-url]: https://github.com/Prasenjit-3433/Drag-and-Drop/stargazers
-[issues-shield]: https://img.shields.io/github/issues/Prasenjit-3433/Drag-and-Drop.svg?style=for-the-badge
-[issues-url]: https://github.com/Prasenjit-3433/Drag-and-Drop/issues
-[license-shield]: https://img.shields.io/github/license/Prasenjit-3433/Drag-and-Drop.svg?style=for-the-badge
-[license-url]: https://github.com/Prasenjit-3433/Drag-and-Drop/blob/main/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/Prasenjit-3433/Splash-Page-Design.svg?style=for-the-badge
+[contributors-url]: https://github.com/Prasenjit-3433/Splash-Page-Design/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/Prasenjit-3433/Splash-Page-Design.svg?style=for-the-badge
+[forks-url]: https://github.com/Prasenjit-3433/Splash-Page-Design/network/members
+[stars-shield]: https://img.shields.io/github/stars/Prasenjit-3433/Splash-Page-Design.svg?style=for-the-badge
+[stars-url]: https://github.com/Prasenjit-3433/Splash-Page-Design/stargazers
+[issues-shield]: https://img.shields.io/github/issues/Prasenjit-3433/Splash-Page-Design.svg?style=for-the-badge
+[issues-url]: https://github.com/Prasenjit-3433/Splash-Page-Design/issues
+[license-shield]: https://img.shields.io/github/license/Prasenjit-3433/Splash-Page-Design.svg?style=for-the-badge
+[license-url]: https://github.com/Prasenjit-3433/Splash-Page-Design/blob/main/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://in.linkedin.com/
 [product-screenshot]: images/screenshot.png
