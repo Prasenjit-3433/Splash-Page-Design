@@ -138,7 +138,7 @@ This is an example of how to list things you need to use the software and how to
 * In Figma, the Code panel offers an easy way to extract code information from a specific page element. The code will be displayed by clicking on a layer.
 Currently, Figma supports CSS, Swift, and XML, but notice that most of the code available involves only visual properties and spacing. No Javascript or other logic is exported.
 
-* The right hand panel provides code data for color values, typography, position and sizes. Additionally, designers have the option to add a text description to styles and components, which will be available in the same place. Finally, the panel supports two formatting styles for all three syntaxes: Table and Code. You can toggle them from a tab selector. The Code formatting style is very useful for quick copy and paste. Since the output code is structured in groups, you can extract only the ones you need. Groups split the code by position, text or colors.
+* Select a pre-designed Figma Deisgn from internet. In case, you didn't find anything, use the same design I used [Here](https://www.figma.com/file/4KIM14zOqqIKRuF8kBtHGs/Showcase-Website).
 
 
 
