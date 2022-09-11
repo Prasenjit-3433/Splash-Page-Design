@@ -31,7 +31,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/Prasenjit-3433/Splash-Page-Design">
-    <img src="images/kanban.png" alt="Logo" width="80" height="80">
+    <img src="icon.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Splash Page</h3>
